@@ -21,7 +21,8 @@ try:
     OWNER = config("6440021089", default=1322549723, cast=int)
     LOG = config("-1002134572304", cast=int)
 except Exception as e:
-    LOGS.info("Environment vars Missing")
-    LOGS.info("something went wrong")
-    LOGS.info(str(e))
-    exit(1)
+
+
+
+
+    
