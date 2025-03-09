@@ -31,7 +31,7 @@ from logging import DEBUG, INFO, basicConfig, getLogger, warning
 from pathlib import Path
 
 import requests
-import telethon.utils
+
 from decouple import config
 from html_telegraph_poster import TelegraphPoster
 from telethon import Button, TelegramClient, errors, events, functions, types
