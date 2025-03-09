@@ -32,7 +32,7 @@ from pathlib import Path
 
 import requests
 
-from decouple import config
+
 from html_telegraph_poster import TelegraphPoster
 from telethon import Button, TelegramClient, errors, events, functions, types
 from telethon.sessions import StringSession
